@@ -16,3 +16,10 @@ const person = name => {
     return greeting;
 }
 console.log(person("alice"));
+// return object
+
+// returning object literals
+const makeperson =(firstName, lastName) => (
+    { first:firstName, last:lastName}
+);
+console.log(makeperson("john","doe"));
