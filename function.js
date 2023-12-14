@@ -23,3 +23,9 @@ const makeperson =(firstName, lastName) => (
     { first:firstName, last:lastName}
 );
 console.log(makeperson("john","doe"));
+
+
+const jwl = (value) => {
+    console.log(value);
+};
+jwl('nazmul islam jewel')
