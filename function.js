@@ -29,3 +29,15 @@ const jwl = (value) => {
     console.log(value);
 };
 jwl('nazmul islam jewel')
+
+
+function scroll() {
+    window.scrollTo(0,0);
+}
+console.log(scroll);
+
+
+const text=undefined;
+const defultMe ="its me default value";
+const result = text ?? defultMe;
+console.log(result);
